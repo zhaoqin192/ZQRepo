@@ -1,0 +1,6 @@
+framework module ZQpodTestLibrary {
+  umbrella header "ZQpodTestLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

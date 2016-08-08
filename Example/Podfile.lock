@@ -1,0 +1,35 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.5)
+  - ZQpodTestLibrary (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - ZQpodTestLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  ZQpodTestLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  ZQpodTestLibrary: 0bb598e624fb87a8db7450bbb2e79accdb157608
+
+PODFILE CHECKSUM: 960a3d62340ed1fbabd013a8e790453a045826e9
+
+COCOAPODS: 1.1.0.beta.1
